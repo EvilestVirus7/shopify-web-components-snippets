@@ -1,1 +1,14 @@
-{}
+{
+  "Custom Element": {
+    "prefix": ["custom-element", "ce", "shopify-element", "se"],
+    "body": [
+      "class ${1:CustomElement} extends HTMLElement {",
+      "  constructor() {",
+      "    super();",
+      "  }",
+      "}",
+      "customElements.define('${2:custom-element}', ${1:CustomElement});"
+    ],
+    "description": "Create a custom element extending HTMLElement"
+  }
+}
