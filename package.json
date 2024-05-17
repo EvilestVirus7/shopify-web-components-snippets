@@ -6,7 +6,7 @@
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/EvilestVirus7/shopify-web-components-snippets"
   },
   "engines": {
     "vscode": "^1.89.0"
