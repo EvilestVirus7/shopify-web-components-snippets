@@ -1,0 +1,20 @@
+{
+  "name": "shopify-web-components-snippets",
+  "displayName": "Shopify Web Components Snippets",
+  "description": "Unlock the full potential of Web Components in your Shopify projects with Wethis extension. Designed specifically for developers working on Shopify themes, this Visual Studio Code extension offers a powerful suite of snippets that simplify the creation and integration of Web Components.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "'javascript'",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
